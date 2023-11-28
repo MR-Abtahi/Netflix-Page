@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+    height: 800px;
+    background-color: black;
+    background: url(my.JPG);
+    background-size: cover;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.head button a{
+    text-decoration: none;
+    color: white;
+}
+.head button{
+    height: 35px;
+    width: 100px;
+    margin-top: 40px;
+    margin-right: 200px;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+.head button:hover{
+    position: relative;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #ccc;
+}
+.head h1{
+    margin-left: 200px;
+    margin-top: 40px;
+    color: red;
+    
+}
+.head h1 a{
+    text-decoration: none;
+    color: red;
+}
+.head2{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top:250px;
+    left:33%;
+}
+.head2 h2{
+        font-weight: bold;
+}
+.head2 h1{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.head2 h3{
+    margin-top:25px;
+    font-weight: bold;
+}
+.head2 button a{
+    text-decoration: none;
+    color: white;
+}
+.head2 button{
+    margin-top:30px;
+    color: white;
+    background-color: red;
+    height: 55px;
+    width: 215px;
+    border-radius: 8px;
+    border: none;
+}
+.head2 button:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #ccc;
+
+}
+header::before{
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+header h1,button{
+    z-index: 2;
+}
+.my{ 
+    text-align: center;
+    color: white; 
+}
+.my p a{ 
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.my a:hover{
+     border-bottom: 2px solid #ccc;
+    
+}
+footer{ 
+    padding-top: 13px;
+    height: 50PX;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
